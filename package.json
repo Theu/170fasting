@@ -1,0 +1,26 @@
+{
+  "name": "170fasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theu/170fasting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theu/170fasting/issues"
+  },
+  "homepage": "https://github.com/Theu/170fasting#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  }
+}
