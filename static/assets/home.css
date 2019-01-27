@@ -56,11 +56,22 @@ p {
     line-height: 30px;
 }
 
-span, .partecipanti > li {
+span, .partecipanti > li, .table-title {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 320px) {
+.table-partecipant {
+    width: 100%;
+}
+
+.participant-td {
+    padding: 10px 0;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .wrapper {
         width: 100%;
         margin: 0 auto;
@@ -82,5 +93,20 @@ span, .partecipanti > li {
     .menu-lang {
         margin-right: 5px;
         line-height: 25px;
+    }
+
+    .table-title {
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .table-partecipant {
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .participant-td {
+        padding: 10px 0;
+        font-size: 10px;
     }
   }
